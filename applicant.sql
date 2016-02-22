@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 18, 2016 at 02:45 PM
+-- Generation Time: Feb 22, 2016 at 10:10 AM
 -- Server version: 5.6.14
 -- PHP Version: 5.5.6
 
@@ -39,6 +39,7 @@ CREATE TABLE IF NOT EXISTS `applicant` (
   `A_HP` varchar(20) NOT NULL,
   `A_GENDER` varchar(15) NOT NULL,
   `A_BIDANG` varchar(1000) NOT NULL,
+  `A_SHIP_ADDRESS` varchar(200) NOT NULL,
   PRIMARY KEY (`A_ID`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
@@ -46,9 +47,9 @@ CREATE TABLE IF NOT EXISTS `applicant` (
 -- Dumping data for table `applicant`
 --
 
-INSERT INTO `applicant` (`A_ID`, `A_NAMA`, `A_INST`, `A_DEPT`, `A_ALAMAT`, `A_KOTA`, `A_PROVINSI`, `A_KODE_POS`, `A_EMAIL`, `A_HP`, `A_GENDER`, `A_BIDANG`) VALUES
-(1, 'ewew', '', '', 'wew', '', '', 0, '', '345678', '', ''),
-(2, 'wew', 'qweqweq', 'ewewew', 'asfgsvcxasf', 'asdas', 'asda', 123123, 'adgfscsgadf', '12351512314', 'Perempuan', 'sadfasdad');
+INSERT INTO `applicant` (`A_ID`, `A_NAMA`, `A_INST`, `A_DEPT`, `A_ALAMAT`, `A_KOTA`, `A_PROVINSI`, `A_KODE_POS`, `A_EMAIL`, `A_HP`, `A_GENDER`, `A_BIDANG`, `A_SHIP_ADDRESS`) VALUES
+(1, 'ewew', '', '', 'wew', '', '', 0, '', '345678', '', '', ''),
+(2, 'wew', 'qweqweq', 'ewewew', 'asfgsvcxasf', 'asdas', 'asda', 123123, 'adgfscsgadf', '12351512314', 'Perempuan', 'sadfasdad', '');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
