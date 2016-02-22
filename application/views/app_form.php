@@ -133,7 +133,7 @@ td {
                     
                 
     <div id="post-78" class="post-78 page type-page status-publish hentry post page clearfix">
-        <h2 class="title">Community Application</h2>
+        <h2 class="title">Community Application EDIT</h2>
         
                 
         <div class="entry clearfix">
