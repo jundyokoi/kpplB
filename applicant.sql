@@ -3,8 +3,8 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 18, 2016 at 02:45 PM  //EDIIIIT
--- Server version: 5.6.14
+-- Generation Time: Feb 18, 2016 at 02:45 PM
+-- Server version: 5.6.14   EDIT
 -- PHP Version: 5.5.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
